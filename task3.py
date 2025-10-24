@@ -1,6 +1,6 @@
 import re
 
-text = 'Hello, hello how are you. you and you?!/.'.lower() # input('Введите текст: ').lower()
+text = input('Введите текст: ').lower()
 
 text_words = [word for word in re.findall(r'\w+', text)]
 
